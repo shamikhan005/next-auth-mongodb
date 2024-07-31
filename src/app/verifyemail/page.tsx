@@ -6,7 +6,6 @@ import { useRouter } from 'next/router';
 import Link from 'next/link';
 
 export default function VerifyEmailPage() {
-  // const router = useRouter()
   const [token, setToken] = useState("")
   const [verified, setVerified] = useState(false)
   const [error, setError] = useState(false)
@@ -23,11 +22,7 @@ export default function VerifyEmailPage() {
   useEffect(() => {
     const urlToken = window.location.search.split("=")[1]
     setToken(urlToken || "")
-
-    // const {query} = router;
-    // const urlTokenTwo = query.token;
-
-  }, [])
+}, [])
 
   useEffect(() => {
     if (token.length > 0) {
