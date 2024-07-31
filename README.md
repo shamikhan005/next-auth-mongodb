@@ -15,7 +15,7 @@ this repository contains a next.js application with user authentication implemen
 #### clone repository:
 
 ```bash
-git clone https://github.com/shamikhan005/next-auth-mongodb.git
+git clone https://github.com/<your-username>/next-auth-mongodb.git
 cd next-auth-mongodb
 ```
 
